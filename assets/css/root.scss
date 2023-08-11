@@ -1,0 +1,22 @@
+html {
+  font-size: 16px;
+  /*Remove Gray Highlight When Tapping Links in Mobile Safari*/
+  /*https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-tap-highlight-color*/
+  -webkit-tap-highlight-color: transparent;
+
+  -ms-overflow-style: none;
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+body {
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  font-family: brandon_textregular;
+}
+
+button:focus {
+  outline: none;
+}

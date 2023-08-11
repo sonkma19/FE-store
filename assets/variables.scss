@@ -1,0 +1,58 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+@import "mixins";
+@import "utils";
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+:root {
+  --app-bar-height: 64px;
+  --sidebar-width: 260px;
+}
+
+// COLOR
+$color-white: #ffffff;
+$color-black: #212121;
+$color-gray: #666666;
+$color-primary-60: #ebf1ff;
+$color-primary: #0093e9;
+$color-warning: #ffa567;
+$color-warning-lighten: #ffa724;
+$color-error: #ff5252;
+$color-error-60: #ffebeb;
+$color-disabled: #eeeeee;
+$color-success: #29c195;
+$color-blue-light: #eff4fe;
+$color-disabled-darken: rgba(33, 33, 33, 0.3);
+$bg-color-striped: #eff4fe;
+
+$color-blue-100: #eff4fe;
+$color-blue-400: #5091fe;
+$color-blue-500: #0093e9;
+$color-blue-900: #0f2738;
+$color-gray-600: #666666;
+$color-gray-500: #888888;
+$color-gray-400: #cccccc;
+$color-gray-300: #f1f1f1;
+$color-red-500: #f23636;
+$color-orange-500: #ffa724;
+$color-black-lighten: #222222;
+$color-blue-lighten: #eff4fe;
+$color-gray-lighten: rgba(33, 33, 33, 0.3);
+
+$color-background-gray: #f7f7f7;
+// FONT WEIGHT
+$font-thin: 300;
+$font-normal: 400;
+$font-semibold: 700;
+$font-bold: 900;
+
+// BREAKPOINT
+$breakpoint-xl: 1904px; // Extra large
+$breakpoint-lg: 1264px; // Large
+$breakpoint-md: 960px; // Medium
+$breakpoint-sm: 600px; // Small
+$breakpoint-xs: 375px; // Extra small

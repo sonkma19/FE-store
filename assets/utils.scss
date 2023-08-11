@@ -1,0 +1,6 @@
+// GAP
+@for $i from 1 through 10 {
+  .gap-#{$i} {
+    gap: #{$i * 3}px !important;
+  }
+}
